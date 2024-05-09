@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Login Form</title>
+    <link rel="stylesheet" href="changed color.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script>
+        function display(){
+            alert("Login Successful");
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <h2>Login Form</h2>
+        </div>
+
+        <div class="email">
+            <div class="first">
+                <i class='bx bx-user'></i>
+                <input type="email" placeholder="Email or phone" class="box1" required>    
+            </div>
+        </div>
+
+        <div class="password">
+            <div class="second">
+                <i class='bx bxs-lock-alt'></i>              
+                <input type="password" placeholder="Password" class="box2" required>    
+            </div>
+        </div>
+
+        <a href="#" class="forget">Forget Password?</a>
+
+        <button class="login" onclick="display()">Login</button>
+
+        <p class="last"> Not a member? <a href="#" style="text-decoration: none;">Signup now</a>
+        </p> 
+    </div>
+
+
+</body>
+</html>
